@@ -17,3 +17,26 @@ main h1{
 main h2{
     font-size:40px;
 }
+
+.button{
+    background-color: #4B2BB7;
+    color: white;
+    border: 1px solid #4B2BB7;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 0;
+}
+
+.demo{
+    color:#4B2BB7;
+    border: 1px solid #4B2BB7;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 0;
+}
+
+input{
+background: #828282;
+}
