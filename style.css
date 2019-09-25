@@ -1,0 +1,10 @@
+header{
+    background-image:url(logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav ul{
+    text-decoration: none;
+    list-style-type: none;
+}
