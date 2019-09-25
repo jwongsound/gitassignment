@@ -25,9 +25,7 @@ nav ul{
     font-size: 20px;
     
 }
-.div1{
-    z-index: -1;
-}
+
 
 .images{
     display: grid;
@@ -55,15 +53,20 @@ img.div2{
 main{
     grid-column: 1;
     padding:30px;
+    align-self: center;
 }
 
 .images{
     grid-column: 2;
 }
 
+
+
 section{
     justify-self: center;
     margin-top: 40px;
+    grid-row: 2;
+    grid-column: 1;
 }
 
 section h3{
