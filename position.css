@@ -31,14 +31,18 @@ nav ul{
 
 .images{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px 1fr 1fr 1fr;
 }
 
 img.div1{
-    z-index: -1;
-    grid-row:2 / 4;
-    grid-column:2 / 4;
+    grid-row: 3 / 5;
+    grid-column: 1 / 3;
+}
+
+img.div2{
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
 }
 
 
