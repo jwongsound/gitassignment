@@ -1,0 +1,9 @@
+.grida{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+}
+
+nav ul{
+    display: flex;
+}
