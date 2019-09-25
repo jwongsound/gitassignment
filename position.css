@@ -25,6 +25,22 @@ nav ul{
     font-size: 20px;
     
 }
+.div1{
+    z-index: -1;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+img.div1{
+    z-index: -1;
+    grid-row:2 / 4;
+    grid-column:2 / 4;
+}
+
 
 .gridb{
     display:grid;
@@ -48,4 +64,9 @@ section{
 
 section h3{
     margin-bottom: 50px;
+}
+
+footer{
+    grid-column: span 2;
+    grid-row: 3;
 }
