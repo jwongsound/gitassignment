@@ -1,10 +1,19 @@
-header{
+/* header{
     background-image:url(logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
-}
+    width: 100%;
+} */
 
 nav ul{
     text-decoration: none;
     list-style-type: none;
+}
+
+main h1{
+    color: #FA6797;
+}
+
+main h2{
+    font-size:40px;
 }
