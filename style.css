@@ -5,6 +5,18 @@
     width: 100%;
 } */
 
+body{
+    background-color: pink;
+}
+.wrapper{
+    margin: 5vmin auto;
+    padding-top: 4vmin;
+    width: 90vw;
+    border-radius: 25px;
+    background-color:white;
+
+}
+
 nav ul{
     text-decoration: none;
     list-style-type: none;
@@ -18,23 +30,29 @@ main h2{
     font-size:40px;
 }
 
+
 .button{
+   
     background-color: #4B2BB7;
     color: white;
     border: 1px solid #4B2BB7;
     width: fit-content;
     border-radius: 25px;
     padding: 5px;
-    margin: 0;
+    margin-top: 0px;
+    text-decoration: none;
 }
 
 .demo{
+ 
+
     color:#4B2BB7;
     border: 1px solid #4B2BB7;
     width: fit-content;
     border-radius: 25px;
     padding: 5px;
-    margin: 0;
+    margin: 0px;
+    text-decoration: none;
 }
 
 input{
@@ -42,5 +60,13 @@ background: #828282;
 }
 
 footer{
-    background: #4B2BB7
+    background: #4B2BB7;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
+
+img{
+    width: 80%;
+
 }
