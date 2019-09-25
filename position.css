@@ -1,9 +1,51 @@
+
 .grida{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
+    "head nav nav";
 }
 
+
+
+nav{
+    grid-area: nav;
+    align-self: center;
+    margin-top: 20px;
+}
+
+header img{
+    grid-area: head;
+    padding:20px;
+}
 nav ul{
     display: flex;
+    justify-content: space-evenly;
+
+    font-size: 20px;
+    
+}
+
+.gridb{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 300px 50px;
+}
+
+main{
+    grid-column: 1;
+    padding:30px;
+}
+
+.images{
+    grid-column: 2;
+}
+
+section{
+    justify-self: center;
+    margin-top: 40px;
+}
+
+section h3{
+    margin-bottom: 50px;
 }
