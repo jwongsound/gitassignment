@@ -14,6 +14,7 @@ body{
     width: 90vw;
     border-radius: 25px;
     background-color:white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.185);
 
 }
 
